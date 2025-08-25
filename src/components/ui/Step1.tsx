@@ -16,7 +16,7 @@ function Step1() {
           Please provide your name, email address, and phone number.
         </CardDescription>
       </CardHeader>
-      <CardContent className="grid gap-5 pb-6">
+      <CardContent className="grid gap-5 max-sm:pb-6">
         <InputWithLabel
           label="Name"
           id="name"

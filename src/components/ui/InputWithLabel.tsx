@@ -1,4 +1,3 @@
-
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 
@@ -16,7 +15,7 @@ export function InputWithLabel({
   type = "text",
 }: InputWithLabelProps) {
   return (
-    <div className="grid w-full max-w-sm items-center gap-1">
+    <div className="grid w-full items-center gap-1 max-sm:max-w-sm">
       <Label htmlFor={id}>{label}</Label>
       <Input type={type} id={id} placeholder={placeholder} />
     </div>
